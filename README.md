@@ -1,7 +1,7 @@
 # 🎯 Lumino
 
 <div align="center">
-  <img src="./embedded.png" alt="Smart Illumination Control UI" width="600"/>
+ 
   <br/>
   <em>Web-based MQTT scheduling system for Arduino relay control</em>
 </div>
