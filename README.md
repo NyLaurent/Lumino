@@ -1,12 +1,12 @@
-# 🎯 Lumino
+# 🎯 Lumino - Intelligent Lighting Control System
 
 <div align="center">
-  <img src="./embedded.png" alt="Smart Illumination Control UI" width="600"/>
+  <img src="image.png" alt="Lumino Smart Lighting Control UI" width="600"/>
   <br/>
-  <em>Web-based MQTT scheduling system for Arduino relay control</em>
+  <em>Transform your space with intelligent, automated lighting control</em>
 </div>
 
-## 📋 Table of Contents
+## �� Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Components](#-components)
@@ -19,16 +19,33 @@
 - [Security Note](#-security-note)
 - [Customization](#-customization)
 
-## 🎯 Project Overview
+## �� Project Overview
 
-A web-based MQTT scheduling system that controls an Arduino relay based on user-defined schedules through a modern web interface.
+Lumino is a sophisticated lighting automation system that brings intelligence to your space. It combines the power of MQTT, WebSocket technology, and Arduino to create a seamless, automated lighting experience. Whether you're looking to enhance your home automation setup or create a smart office environment, Lumino provides a reliable and intuitive solution for managing your lighting schedules.
 
 ### Key Features
 
-- Web interface for setting ON/OFF times
-- WebSocket server for schedule forwarding
-- Python subscriber for Arduino control
-- Arduino sketch for physical relay control (LOW = ON, HIGH = OFF)
+- **Smart Scheduling**: Set precise ON/OFF times with an intuitive web interface
+- **Real-time Control**: Instant updates through WebSocket communication
+- **Reliable Automation**: Robust MQTT-based command system
+- **Hardware Integration**: Seamless Arduino relay control
+- **Modern Interface**: Sleek, responsive design with dark theme support
+
+### Why Lumino?
+
+- **Energy Efficient**: Automate lighting to reduce energy consumption
+- **Convenient**: Set it and forget it - your lights will follow your schedule
+- **Customizable**: Adapt the system to your specific needs
+- **Reliable**: Built with robust technologies for dependable operation
+- **Modern**: Features a stunning dark-themed interface with smooth animations
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="image1.png" alt="Lumino System Architecture" width="800"/>
+  <br/>
+  <em>System Architecture and Components</em>
+</div>
 
 ## 🔧 Components
 
@@ -167,4 +184,3 @@ The MQTT broker IP is hardcoded for demonstration purposes. In a production envi
 - Modify the web interface design in `static/style.css`
 - Adjust schedule check frequency in `subscriber.py`
 - Configure MQTT topics and broker settings in both Python scripts
-# Lumino
